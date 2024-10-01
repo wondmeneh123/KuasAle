@@ -41,7 +41,7 @@ const Status = () => {
               </h1>
               <p className="text-md">{matchData?.date || "Unknown Date"}</p>
             </div>
-            <h1 className="text-9xl">⚽</h1>
+
             <h2 className="text-center text-3xl font-bold">
               COME ON! LET’S PLAY <br />
               THERE IS A GAME
@@ -59,7 +59,7 @@ const Status = () => {
               </h1>
               <p className="text-md">{matchData?.date || "We're sorry"}</p>
             </div>
-            <h1 className="text-9xl">🚫</h1>
+
             <h2 className="text-center  text-3xl font-bold">
               Looks like <br /> Fella students are busy 😒
             </h2>
