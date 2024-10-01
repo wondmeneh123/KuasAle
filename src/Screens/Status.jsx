@@ -52,9 +52,22 @@ const Status = () => {
             </div>
           </>
         ) : (
-          <h2 className="text-center text-3xl font-bold">
-            No match scheduled for today
-          </h2>
+          <>
+            <div className="flex flex-col items-center justify-center gap-5">
+              <h1 className="text-4xl font-semibold">
+                {matchData?.day || "No Game"}
+              </h1>
+              <p className="text-md">{matchData?.date || "We're sorry"}</p>
+            </div>
+            <h1 className="text-9xl">🚫</h1>
+            <h2 className="text-center  text-3xl font-bold">
+              Looks like <br /> Fella students are busy 😒
+            </h2>
+            <div className="flex text-xl font-semibold">
+              <p>⌛</p>
+              <p>CHECK AGAIN TOMORROW</p>
+            </div>
+          </>
         )}
       </div>
     </div>
